@@ -18,43 +18,24 @@ const IndexPage: NextPage<NextAppPageProps> = ({ meta }) => {
         <main className={styles.main}>
           <h1 className="w-full flex flex-col place-items-center text-6xl gap-2">
             <HashIcon />
-            <img src="/nsk.png" alt="NSK Logo" className="w-32" /> {meta?.title}
+            VividGrounds
           </h1>
 
           <p className={styles.description}>
-            Get started by editing{' '}
-            <code className={styles.code}>src/pages/index.tsx</code>
+            Now on making!{' '}
           </p>
 
           <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
+            <a href="https://github.com/tamagoez/vivid-grounds" className={styles.card}>
               <FaDochub className="text-4xl mb-2" />
-              <h3>Documentation &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <h3>View on GitHub &rarr;</h3>
+              <p>This project is public and able to view.</p>
             </a>
 
-            <a href="https://nextjs.org/learn" className={styles.card}>
+            <a href="https://twitter.com/tamago_ez" className={styles.card}>
               <FaBook className="text-4xl mb-2" />
-              <h3>Learn &rarr;</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a
-              href="https://github.com/vercel/next.js/tree/master/examples"
-              className={styles.card}
-            >
-              <h3>Examples &rarr;</h3>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              className={styles.card}
-            >
-              <h3>Deploy &rarr;</h3>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
+              <h3>Follow my Twitter! &rarr;</h3>
+              <p>I'm sharing my codes!</p>
             </a>
           </div>
         </main>
@@ -81,7 +62,7 @@ export const getServerSideProps: GetServerSideProps<IndexPageServerSideProps> =
     return {
       props: {
         meta: {
-          title: 'Next.js Starter Kit',
+          title: 'Now on build! - VividGrounds',
         },
       },
     }
