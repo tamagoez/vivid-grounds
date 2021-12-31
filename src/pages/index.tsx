@@ -35,7 +35,7 @@ const IndexPage: NextPage<NextAppPageProps> = ({ meta }) => {
             <a href="https://twitter.com/tamago_ez" className={styles.card}>
               <FaBook className="text-4xl mb-2" />
               <h3>Follow my Twitter! &rarr;</h3>
-              <p>I'm sharing my codes!</p>
+              <p>Let's get new information rapidly!</p>
             </a>
           </div>
         </main>
