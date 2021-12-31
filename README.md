@@ -1,4 +1,4 @@
-# Vivid Ground
+# Vivid Grounds
 Unofficial vividarmy community page.  
 Made with ❤️ by **たまご**, S1749[JCAP].
 
