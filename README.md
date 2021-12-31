@@ -1,3 +1,7 @@
+# Vivid Ground
+Unofficial vividarmy community page.  
+Made with ❤️ by **たまご**, S1749[JCAP].
+
 # Next.js Starter Kit
 Boilerplate to quckly get up and running with Next.js with
 - __Typescript__ as the language choice
